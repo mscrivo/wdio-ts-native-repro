@@ -1,0 +1,14 @@
+{
+  "name": "wdio-ts-native-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduces TS1540 error with @wdio/globals and @typescript/native-preview",
+  "scripts": {
+    "typecheck": "tsgo --noEmit"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20260226.1",
+    "@wdio/globals": "^9.23.0",
+    "webdriverio": "^9.24.0"
+  }
+}

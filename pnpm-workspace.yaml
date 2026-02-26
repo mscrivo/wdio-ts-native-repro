@@ -1,0 +1,4 @@
+catalog:
+  '@typescript/native-preview': 7.0.0-dev.20260226.1
+  '@wdio/globals': ^9.23.0
+  webdriverio: ^9.24.0
